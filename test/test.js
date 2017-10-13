@@ -22,6 +22,10 @@ describe('next/toEntries', function () {
     var result2 = nx.toEntries( 'http', obj.http);
     var result3 = nx.toEntries( 'wx', obj.wx);
 
+    console.log(result1);
+    console.log(result2);
+    console.log(result3);
+
     assert.equal(result1.length, 6);
     assert.equal(result2.length, 1);
     assert.equal(result3.length, 1);
