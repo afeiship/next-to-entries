@@ -21,7 +21,7 @@ var result1 = nx.toEntries( 'nomral', obj.nomral);
 var result2 = nx.toEntries( 'http', obj.http);
 var result3 = nx.toEntries( 'wx', obj.wx);
 
-// normal:
+// result1:
 // [ { key: 'nomral', value: 'sljflsdjf.jpg' },
 //   { key: 'nomral', value: 'bb.jpg' },
 //   { key: 'nomral', value: 'bc.jpg' },
@@ -29,9 +29,9 @@ var result3 = nx.toEntries( 'wx', obj.wx);
 //   { key: 'nomral', value: 'ccsdf.jpg' },
 //   { key: 'nomral', value: 'sldjfsld.jpg' } ]
 
-// http:
+// result2:
 // [ { key: 'http', value: 'http://www.agc.cn/1.jpg' } ]
 
-// wx:
+// result3:
 // [ { key: 'wx', value: 'wx://localResource' } ]
 ```
